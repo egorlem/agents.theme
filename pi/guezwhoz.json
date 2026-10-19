@@ -1,0 +1,96 @@
+{
+  "$schema": "https://pi.dev",
+  "name": "guezwhoz",
+  "appearance": "dark",
+  "vars": {
+    "sunken": "#191a1e",
+    "elevated": "#22242a",
+    "bg": "#1d1d1d",
+    "errorBg": "#221418",
+
+    "panelBg": "#212121",
+    "selectionBg": "#1A3C3D",
+    "white": "#ffffff",
+
+    "textMain": "#D9D9D9",
+    "textMuted": "#6E6E6E",
+    "textDim": "#333333",
+
+    "accentBlue": "#5AA0D6",
+    "accentCyan": "#58D6CE",
+    "successGreen": "#7AD694",
+    "stringGreen": "#AFD7AF",
+    "numberViolet": "#9A90E0",
+    "warningYellow": "#B7D074",
+    "errorPink": "#E85181",
+    "escapeNeon": "#5fffaf"
+  },
+  "colors": {
+    "text": "textMain",
+    "muted": "textMuted",
+    "dim": "textMuted",
+    "accent": "stringGreen",
+    "border": "accentBlue",
+    "borderAccent": "accentBlue",
+    "borderMuted": "textDim",
+
+    "success": "successGreen",
+    "error": "errorPink",
+    "warning": "warningYellow",
+
+    "selectedBg": "selectionBg",
+
+    "userMessageBg": "elevated",
+    "userMessageText": "white",
+
+    "customMessageBg": "sunken",
+    "customMessageLabel": "errorPink",
+    "customMessageText": "textMain",
+
+    "thinkingText": "textMuted",
+    "thinkingOff": "textDim",
+    "thinkingMinimal": "textMuted",
+    "thinkingLow": "accentBlue",
+    "thinkingMedium": "accentCyan",
+    "thinkingHigh": "successGreen",
+    "thinkingXhigh": "warningYellow",
+    "thinkingMax": "errorPink",
+
+    "toolTitle": "accentCyan",
+    "toolOutput": "textMain",
+    "toolPendingBg": "elevated",
+    "toolSuccessBg": "sunken",
+    "toolErrorBg": "errorBg",
+
+    "toolDiffAdded": "successGreen",
+    "toolDiffRemoved": "errorPink",
+    "toolDiffContext": "textMuted",
+
+    "bashMode": "errorPink",
+
+    "mdHeading": "accentBlue",
+    "mdHr": "textDim",
+    "mdLink": "accentBlue",
+    "mdLinkUrl": "textMuted",
+    "mdListBullet": "textMuted",
+    "mdQuote": "textMain",
+    "mdQuoteBorder": "accentBlue",
+    "mdCode": "successGreen",
+    "mdCodeBlock": "sunken",
+    "mdCodeBlockBorder": "textMuted",
+
+    "syntaxKeyword": "accentBlue",
+    "syntaxString": "stringGreen",
+    "syntaxComment": "textMuted",
+    "syntaxFunction": "accentCyan",
+    "syntaxNumber": "numberViolet",
+    "syntaxOperator": "accentBlue",
+    "syntaxPunctuation": "textMuted",
+    "syntaxType": "successGreen",
+    "syntaxVariable": "textMain"
+  },
+  "export": {
+    "pageBg": "bg",
+    "cardBg": "panelBg"
+  }
+}
