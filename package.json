@@ -1,0 +1,18 @@
+{
+  "name": "guezwhoz-pi",
+  "version": "1.0.0",
+  "description": "A dark theme for π with a cool pastel palette and a green axis. Built for long sessions: soft colors, a symmetric background hierarchy.",
+  "homepage": "https://github.com/egorlem/agents.theme#readme",
+  "bugs": {
+    "url": "https://github.com/egorlem/agents.theme/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/egorlem/guezwhoz.pi"
+  },
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

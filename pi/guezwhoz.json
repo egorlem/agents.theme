@@ -1,5 +1,5 @@
 {
-  "$schema": "https://pi.dev",
+  "$schema": "https://pi.dev/schemas/theme.schema.json",
   "name": "guezwhoz",
   "appearance": "dark",
   "vars": {
@@ -13,6 +13,8 @@
     "white": "#ffffff",
 
     "textMain": "#D9D9D9",
+    "thinkingText": "#BAC5BA",
+    "textSoft": "#808080",
     "textMuted": "#6E6E6E",
     "textDim": "#333333",
 
@@ -27,9 +29,9 @@
   },
   "colors": {
     "text": "textMain",
-    "muted": "textMuted",
-    "dim": "textMuted",
-    "accent": "stringGreen",
+    "muted": "textSoft",
+    "dim": "textSoft",
+    "accent": "accentCyan",
     "border": "accentBlue",
     "borderAccent": "accentBlue",
     "borderMuted": "textDim",
@@ -39,6 +41,8 @@
     "warning": "warningYellow",
 
     "selectedBg": "selectionBg",
+    "searchMatchBg": "selectionBg",
+    "searchMatchText": "textMain",
 
     "userMessageBg": "elevated",
     "userMessageText": "white",
@@ -47,7 +51,11 @@
     "customMessageLabel": "errorPink",
     "customMessageText": "textMain",
 
-    "thinkingText": "textMuted",
+    "thinkingText": "thinkingText",
+
+    "scrollbarTrack": "textSoft",
+    "scrollbarThumb": "textMain",
+
     "thinkingOff": "textDim",
     "thinkingMinimal": "textMuted",
     "thinkingLow": "accentBlue",
@@ -56,8 +64,8 @@
     "thinkingXhigh": "warningYellow",
     "thinkingMax": "errorPink",
 
-    "toolTitle": "accentCyan",
-    "toolOutput": "textMain",
+    "toolTitle": "accentBlue",
+    "toolOutput": "textSoft",
     "toolPendingBg": "elevated",
     "toolSuccessBg": "sunken",
     "toolErrorBg": "errorBg",
@@ -75,8 +83,8 @@
     "mdListBullet": "textMuted",
     "mdQuote": "textMain",
     "mdQuoteBorder": "accentBlue",
-    "mdCode": "successGreen",
-    "mdCodeBlock": "sunken",
+    "mdCode": "stringGreen",
+    "mdCodeBlock": "stringGreen",
     "mdCodeBlockBorder": "textMuted",
 
     "syntaxKeyword": "accentBlue",
