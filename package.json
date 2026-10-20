@@ -9,8 +9,6 @@
     "dark-theme",
     "guezwhoz"
   ],
-  "license": "WTFPL",
-  "author": "Egor Lem (https://egorlem.com/)",
   "homepage": "https://github.com/egorlem/guezwhoz.pi#readme",
   "bugs": {
     "url": "https://github.com/egorlem/guezwhoz.pi/issues"
@@ -19,11 +17,18 @@
     "type": "git",
     "url": "git+https://github.com/egorlem/guezwhoz.pi.git"
   },
+  "license": "WTFPL",
+  "author": "Egor Lem",
+  "type": "commonjs",
+  "main": "index.js",
   "files": [
     "themes/",
     "README.md",
     "LICENSE"
   ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "pi": {
     "themes": [
       "./themes/guezwhoz.json"
