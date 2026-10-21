@@ -10,7 +10,7 @@ Built for long sessions: soft colors and a symmetric background hierarchy.
 
 More Pi resources may be added to this package over time.
 
-![guezwhoz theme preview](https://github.com/egorlem/ultima.workspace/blob/e054a2836c19768ee48e2ec22dd8165a2c799a94/demos/pi-theme-v-0.1.0.png?raw=true)
+![guezwhoz theme preview](https://raw.githubusercontent.com/egorlem/ultima.workspace/9fd678e50feb9af3b8d5b93260bbfb5d2746d35b/demos/pi-theme-v-0.1.1.png)
 
 ## Install
 
